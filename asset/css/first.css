@@ -1,0 +1,91 @@
+
+.card-body p
+{
+    font-size: 50px
+}
+
+@media (min-width:320px)
+{
+.card-body
+{
+    width:250px
+}
+.card-body p
+{
+    font-size: 10px;
+}
+.card-body label
+{
+    font-size: 10px;
+}
+
+
+}
+@media (min-width:481px)
+{
+    .card-body
+{
+    width:300px
+}
+.card-body p
+{
+    font-size: 12px;
+}
+.card-body label
+{
+    font-size: 13px;
+}
+
+
+}
+@media (min-width:769px)
+{
+    .card-body
+{
+    width:500px
+}
+.card-body p
+{
+    font-size: 20px;
+}
+.card-body label
+{
+    font-size: 17px;
+}
+
+
+}
+@media (min-width:1025px)
+{
+    .card-body
+{
+    width:700px
+}
+.card-body p
+{
+    font-size: 30px;
+}
+.card-body label
+{
+    font-size: 20px;
+}
+
+
+}
+@media (min-width:1201px)
+{
+    .card-body
+{
+    width:900px
+}
+.card-body p
+{
+    font-size: 30px;
+}
+.card-body label
+{
+    font-size: 20px;
+}
+
+
+}

@@ -1,0 +1,7 @@
+@media (min-width:320px)
+{
+.card-body p 
+{
+    font-size: 32px;
+}
+}

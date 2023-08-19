@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <title>Ruqayyah</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="asset/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="asset/css/second.css">
+    <script src="asset/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Lato", sans-serif;
+        }
+
+        body, html {
+            height: 100%;
+            color: #777;
+            line-height: 1.8;
+        }
+
+        /* Create a Parallax Effect */
+        .bgimg-1, .bgimg-2, .bgimg-3 {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /* First image (Logo. Full height) */
+        .bgimg-1 {
+            background-image: url('asset/imgs/19089317631681558250.jpg');
+            min-height: 100%;
+        }
+
+        label {
+            font-size: 20px;
+        }
+
+        /*!* Second image (Portfolio) *!*/
+        /*.bgimg-2 {*/
+        /*    background-image: url("/w3images/parallax2.jpg");*/
+        /*    min-height: 400px;*/
+        /*}*/
+
+        /*!* Third image (Contact) *!*/
+        /*.bgimg-3 {*/
+        /*    background-image: url("/w3images/parallax3.jpg");*/
+        /*    min-height: 400px;*/
+        /*}*/
+
+        .w3-wide {
+            letter-spacing: 10px;
+        }
+
+        .w3-hover-opacity {
+            cursor: pointer;
+        }
+
+        /* Turn off parallax scrolling for tablets and phones */
+        @media only screen and (max-device-width: 1600px) {
+            .bgimg-1, .bgimg-2, .bgimg-3 {
+                background-attachment: scroll;
+                min-height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+
+    <div class="w3-display-middle" style="white-space:nowrap;">
+        <div class="card">
+            <div class="card-body checkbox-group required" id="cardBody">
+                <p>الرجاء الاختيار من الحالات الاتيه (يمكن اختيار اكتر من واحد ) </p>
+                <!--                <div class="checkbox-group required">-->
+                <div class="form-check ">
+                    <label class="form-check-labelmb-3">
+                        <input class="form-check-input " type="checkbox" name="secondStage[]" id="1"> الحلم بمعابد الديانات الاخرى مثال ان يرى المسلم نفسه بالكنيسه او يرى المسيحى نفسه فى معبد لليهود
+                    </label>
+                </div>
+                <div class="form-check ">
+                    <label class="form-check-labelmb-3">
+                        <input class="form-check-input " type="checkbox" name="secondStage[]" id="2">رؤيه السقوط من اعلى بشكل متكرر
+                    </label>
+                </div>
+                <div class="form-check ">
+                    <label class="form-check-labelmb-3">
+                        <input class="form-check-input " type="checkbox" name="secondStage[]" id="3">عيون شاخصة تنظر اليك
+                    </label>
+                </div>
+                <div class="form-check ">
+                    <label class="form-check-labelmb-3">
+                        <input class="form-check-input " type="checkbox" name="secondStage[]" id="4">منزل أو مبنى أو شارع بشكل متكرر
+                    </label>
+                </div>
+                <div class="form-check ">
+                    <label class="form-check-labelmb-3">
+                        <input class="form-check-input " type="checkbox" name="secondStage[]" id="5"> جماع دائم وبشكل يومى
+                    </label>
+                </div>
+                <div class="form-check ">
+                    <label class="form-check-labelmb-3">
+                        <input class="form-check-input " type="checkbox" name="secondStage[]" id="6">رؤيه انك بين النجوم والكواكب فى السماء أو تحت الارض أو فى بحر أو نهر
+                    </label>
+                </div>
+                <div class="form-check ">
+                    <label class="form-check-labelmb-3">
+                        <input class="form-check-input " type="checkbox" name="secondStage[]" id="7">رؤيه اناس يطاردونك
+                    </label>
+                </div>
+                <div class="form-check ">
+                    <label class="form-check-labelmb-3">
+                        <input class="form-check-input " type="checkbox" name="secondStage[]" id="8">رؤيه حيوانات بشكل عام
+                    </label>
+                </div>
+                <div class="form-check mb-3">
+                    <label class="form-check-label ">
+                        <input class="form-check-input" type="checkbox" name="secondStage[]" id="9"> الحلم بطريق مسدود أو يمتد الى ما لا نهايه وشعور بعدم القدرهعلى الوصول للعنوان المطلوب
+                    </label>
+                </div>
+                <div class="form-check mb-3">
+                    <label class="form-check-label ">
+                        <input class="form-check-input" type="checkbox" name="secondStage[]" id="10">رؤيه فوات الامور كفوات الصلاه او فوات القطار والعمل والاختبارات الدراسيه وغيرها
+                    </label>
+                </div>
+                <div class="form-check mb-3">
+                    <label class="form-check-label ">
+                        <input class="form-check-input" type="checkbox" name="secondStage[]" id="11">رؤيه دورات المياه بشكل متكرر وتكون عادة ضيقة ومقذذة وغير نظيفة
+                    </label>
+                </div>
+                <div class="form-check mb-3">
+                    <label class="form-check-label ">
+                        <input class="form-check-input" type="checkbox" name="secondStage[]" id="12">رؤيه حيوانات بشكل عام
+                    </label>
+                </div>
+            </div>
+
+            <button type="submit" onclick="next()" class="btn btn-primary">التـالـى ( الاعراض الجسدية ) ---></button>
+        </div>
+    </div>
+
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+<!--    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>الى الاعلى</a>-->
+    <div class="w3-xlarge w3-section">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
+    <p>تم التصميم والتنفيذ بواسطة <a href="https://www.linkedin.com/in/mohamed-marei-043000188/" title="W3.CSS" target="_blank" class="w3-hover-text-green">محمد
+        مرعي</a>
+    </p>
+</footer>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", () => {
+        // const firstStage = localStorage['firstStage'] ;
+        //  console.log(firstStage);
+
+        if (localStorage['type'] === 'أنثي') {
+            const node = `<div class="form-check mb-3">
+                    <label class="form-check-label">
+                        <input  class="form-check-input" type="checkbox" name="secondStage[]" id="13">رؤيه رجل او شاب تعرفينة او لا بشكل متكرر
+                    </label>
+                </div>
+                <div class="form-check mb-3">
+                    <label class="form-check-label">
+                        <input  class="form-check-input" type="checkbox" name="secondStage[]" id="14">رؤيه سقوط الجنين او موته او ضرر وقع به او منادى انه لن يكتمل الحمل
+                    </label>
+                </div>`;
+            document.getElementById("cardBody").innerHTML = document.getElementById("cardBody").innerHTML + node;
+        }
+    });
+
+    function next() {
+        var elment = $('div.checkbox-group.required :checkbox:checked');
+        if (elment.length > 0) {
+            console.log(elment.length);
+            const secondStage = [];
+            Object.values(elment).forEach(val => {
+                secondStage.push(val.id);
+            });
+            localStorage['secondStage'] = JSON.stringify(secondStage);
+            // console.log(localStorage['secondStage']);
+            window.location.replace(
+                "third.html",
+            );
+
+        } else {
+            alert('يجب اختيار واحد على الاقل من الاختيارات بالاسفل ');
+        }
+    }
+
+</script>
+
+</body>
+</html>

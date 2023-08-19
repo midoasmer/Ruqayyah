@@ -1,0 +1,132 @@
+
+.card-body p
+{
+    font-size: 45px
+}
+
+@media (min-width:320px)
+{
+.card-body 
+{
+    width:283px;
+ 
+    
+}
+
+.card-body p
+{
+    font-size: 11px;
+}
+.card-body label
+{
+    font-size: 0.44rem;
+
+    
+}
+.form-check
+{
+    height: 13px;
+    min-height: 0;
+    padding-right: 0;
+    margin: 0rem !important;
+}
+
+
+}
+@media (min-width:481px)
+{
+    .card-body
+{
+    width:410px
+}
+.card-body p
+{
+    font-size: 15px;
+}
+.card-body label
+{
+    font-size: 8px;
+}
+.form-check
+{
+    padding-right: 1.5em;
+}
+
+
+}
+@media (min-width:769px)
+{
+    .card-body
+{
+    width:530px
+}
+.card-body p
+{
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.card-body label
+{
+    font-size: 8px;
+}
+.form-check
+{
+    height: 12px;
+    min-height: 0;
+    padding-right: 1.5em;
+}
+
+
+
+}
+@media (min-width:1025px)
+{
+    .card-body
+{
+    width:700px
+}
+.card-body p
+{
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+.card-body label
+{
+    font-size: 10px;
+}
+.form-check
+{
+    height: 12px;
+    min-height: 0;
+}
+
+
+
+
+}
+@media (min-width:1201px)
+{
+    .card-body
+{
+    width:900px
+}
+.card-body p
+{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.card-body label
+{
+    font-size: 20px;
+    
+}
+.form-check
+{
+    height: 40px;
+    min-height: 0;
+    padding-right: 0;
+    padding-right: 1.5em;
+    margin-bottom: 2px;
+}
+
+}
